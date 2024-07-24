@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "finalizeUpdateVaultStakeInDSS can be called by anyone on unregistered DSS ",
+  "issueId": 9,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/9"
+}
