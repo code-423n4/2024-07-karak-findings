@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "JanuaryPersimmon2024",
+  "risk": "3",
+  "title": "The SlashingHandler will always fail to handleSlashing for fee-on-transfer and balance-changes-outside-of-transfers tokens",
+  "issueId": 12,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/12"
+}
