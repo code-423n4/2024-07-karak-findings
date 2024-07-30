@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "gesha17",
+  "risk": "3",
+  "title": "Vault staking request to a DSS cannot be canceled, putting user funds at risk in the case of a malicios DSS",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/26"
+}
