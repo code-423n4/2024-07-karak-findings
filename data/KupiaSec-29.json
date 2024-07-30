@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "Stakers unfairly forfeit their unattributed node balance included in the slashed assets.",
+  "issueId": 29,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/29"
+}
