@@ -111,3 +111,37 @@ Users can start another user's snapshot prematurely, forcing the user to finish 
 ## **Recommendation:**
 
 Add an additional check to ensure that the `validateExpiredSnapshot` function only triggers when the snapshot has truly expired.
+
+## Title: Incorrect Rounding Direction in Mint Function
+
+## **Relevant GitHub Links:**
+
+https://github.com/code-423n4/2024-07-karak/blob/f5e52fdcb4c20c4318d532a9f08f7876e9afb321/src/Vault.sol#L110
+
+## **Vulnerability Details:**
+
+The [mint](https://github.com/code-423n4/2024-07-karak/blob/f5e52fdcb4c20c4318d532a9f08f7876e9afb321/src/Vault.sol#L110) function in the vault calls super.mint in the ERC4626 contract, which in turn calls previewMint. This function determines the number of assets a user needs to provide for the specified shares. The issue is that the function rounds down in favour of the user when it should be rounding up, contrary to what is specified in the [EIP-4626](https://eips.ethereum.org/EIPS/eip-4626#security-considerations:~:text=If%20(1)%20it%E2%80%99s%20calculating%20the%20amount%20of%20shares%20a%20user%20has%20to%20supply%20to%20receive%20a%20given%20amount%20of%20the%20underlying%20tokens%20or%20(2)%20it%E2%80%99s%20calculating%20the%20amount%20of%20underlying%20tokens%20a%20user%20has%20to%20provide%20to%20receive%20a%20certain%20amount%20of%20shares%2C%20it%20should%20round%20up.).
+
+```solidity
+    function previewMint(uint256 shares) public view virtual returns (uint256 assets) {
+        if (!_useVirtualShares()) {
+            uint256 supply = totalSupply();
+            return supply == 0
+                ? _initialConvertToAssets(shares)
+                : FixedPointMathLib.fullMulDivUp(shares, totalAssets(), supply);
+        }
+        uint256 o = _decimalsOffset();
+        if (o == 0) {
+            return FixedPointMathLib.fullMulDivUp(shares, totalAssets() + 1, _inc(totalSupply()));
+        }
+        return FixedPointMathLib.fullMulDivUp(shares, totalAssets() + 1, totalSupply() + 10 ** o);
+    }
+```
+
+## **Impact:**
+
+Rounding down instead of up results in users providing fewer assets for a given number of shares, which can lead to potential losses for other users. This also deviates from the EIP-4626 standard.
+
+## **Recommendation:**
+
+Modify the mint function to ensure it rounds up, as specified in the EIP-4626 standard, to accurately calculate the number of assets a user must provide for the desired shares.
