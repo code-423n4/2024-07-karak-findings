@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "A snapshot may face a permanent DoS if both a slashing event occurs in the NativeVault and the staker's validator is penalized.",
+  "issueId": 31,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/31"
+}
