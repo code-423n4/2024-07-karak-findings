@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "gesha17",
+  "risk": "3",
+  "title": "Wrong input parameter passed to DSS hook function - msg.sender instead of operator",
+  "issueId": 23,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/23"
+}
