@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "givn",
+  "risk": "3",
+  "title": "Operators can deploy malicious NativeVault via changing extraData params",
+  "issueId": 48,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/48"
+}
