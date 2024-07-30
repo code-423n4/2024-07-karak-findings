@@ -145,3 +145,44 @@ Rounding down instead of up results in users providing fewer assets for a given 
 ## **Recommendation:**
 
 Modify the mint function to ensure it rounds up, as specified in the EIP-4626 standard, to accurately calculate the number of assets a user must provide for the desired shares.
+
+## Title: Potential Revert in finalizeSlashing Function Due to Paused Vaults
+
+## **Relevant GitHub Links:**
+
+https://github.com/code-423n4/2024-07-karak/blob/f5e52fdcb4c20c4318d532a9f08f7876e9afb321/src/NativeVault.sol#L299
+
+## **Vulnerability Details:**
+
+The [slashAssets](https://github.com/code-423n4/2024-07-karak/blob/f5e52fdcb4c20c4318d532a9f08f7876e9afb321/src/NativeVault.sol#L299) function in the NativeVault contract can be paused by the Owner, which is the core contract. A potential issue arises when slash requests involve multiple vaults. If one of the vaults is paused, it will cause the entire transaction to revert, blocking the execution of slashes for all vaults involved in the request.
+
+```solidity
+    function slashAssets(uint256 totalAssetsToSlash, address slashingHandler)
+        external
+        onlyOwner
+        nonReentrant
+        whenFunctionNotPaused(Constants.PAUSE_NATIVEVAULT_SLASHER)
+        returns (uint256 transferAmount)
+    {
+        NativeVaultLib.Storage storage self = _state();
+
+        if (slashingHandler != self.slashStore) revert NotSlashStore();
+
+        // avoid negative totalAssets if slashing amount is greater than totalAssets
+        if (totalAssetsToSlash > self.totalAssets) {
+            totalAssetsToSlash = self.totalAssets;
+        }
+
+        self.totalAssets -= totalAssetsToSlash;
+        emit Slashed(totalAssetsToSlash);
+        return totalAssetsToSlash;
+    }
+```
+
+## **Impact:**
+
+If a slash request includes multiple vaults and one of those vaults is paused, the entire request will revert. This will prevent the execution of legitimate slashes on other vaults.
+
+## **Recommendation:**
+
+To mitigate this issue, consider using a `try/catch` block around the slashing logic. This would allow the contract to handle any errors that occur when attempting to slash a paused vault without reverting the entire transaction.
