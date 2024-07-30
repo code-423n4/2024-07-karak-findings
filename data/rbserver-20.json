@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "rbserver",
+  "risk": "2",
+  "title": "DSS cannot force jailed operator to unallocate from such DSS",
+  "issueId": 20,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/20"
+}
