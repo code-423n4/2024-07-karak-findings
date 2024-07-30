@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "The `Vault` contract exhibits incorrect behavior when handling `fee-on-transfer` tokens.",
+  "issueId": 33,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/33"
+}
