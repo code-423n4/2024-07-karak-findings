@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "gesha17",
+  "risk": "3",
+  "title": "Malicios Operator with can utilize a malicios DSS and an overleveraged vault to frontrun an honest DSS's slashing request to protect its funds",
+  "issueId": 27,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/27"
+}
