@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "JanuaryPersimmon2024",
+  "risk": "2",
+  "title": "SlashingHandler::handleSlashing will never work if the token is a fee-on-transfer or rebase token",
+  "issueId": 50,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/50"
+}
