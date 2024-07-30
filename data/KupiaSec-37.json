@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "An attacker can impose financial losses on other stakers by validating their validators prior to executing a slash.",
+  "issueId": 37,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/37"
+}
