@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "Failure to create a vault due to an existing account at expected address",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/43"
+}
