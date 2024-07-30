@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "Shaheen",
+  "risk": "2",
+  "title": "Slashing limit will be bypassed if any staker (finish) redeems their tokens in the `SLASHING_VETO_WINDOW` which will result in other vault's stakers facing more assets slash ",
+  "issueId": 24,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/24"
+}
