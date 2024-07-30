@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "rbserver",
+  "risk": "3",
+  "title": "When malicious behavior occurs and DSS requests slashing against vault during 2 day period after `SLASHING_WINDOW` of 7 days is passed after staker initiates a withdrawal, token amount to be slashed is calculated to be higher than what it should be",
+  "issueId": 17,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/17"
+}
