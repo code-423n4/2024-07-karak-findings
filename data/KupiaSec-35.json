@@ -1,0 +1,8 @@
+{
+  "contest": 404,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "A risk of losing funds exists when depositing just before slashing.",
+  "issueId": 35,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/35"
+}
