@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "Takarez",
+  "risk": "3",
+  "title": "Operator can evade slashing by using unregistered slashHandler address ",
+  "issueId": 84,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/84",
+  "originalIssueId": 118,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/118"
+}
