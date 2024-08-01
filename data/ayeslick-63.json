@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "ayeslick",
+  "risk": "3",
+  "title": "Race Condition between Withdrawals and Slashing ",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/63",
+  "originalIssueId": 345,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/345"
+}
