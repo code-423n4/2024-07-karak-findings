@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "Fulum",
+  "risk": "2",
+  "title": "Operator can skew the state of the `Core` contract and be considered as staked for a DSS, even though the operator is not registered with that DSS on the `Core`.",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/54",
+  "originalIssueId": 277,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/277"
+}
