@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "2",
+  "title": "User can request update of the vault stake and then unregister before finalization",
+  "issueId": 80,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/80",
+  "originalIssueId": 170,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/170"
+}
