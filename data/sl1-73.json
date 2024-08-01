@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "sl1",
+  "risk": "3",
+  "title": " During NativeVault deployment, insufficient validation of the `extraData` parameter allows for the theft of staker funds and prevention of the vault slashing.",
+  "issueId": 73,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/73",
+  "originalIssueId": 262,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/262"
+}
