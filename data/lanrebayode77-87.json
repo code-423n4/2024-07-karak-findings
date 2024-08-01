@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "lanrebayode77",
+  "risk": "3",
+  "title": "An Operator can deploy a vault with a controlled slash store to receive slashed Eth from NativeVault ",
+  "issueId": 87,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/87",
+  "originalIssueId": 68,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/68"
+}
