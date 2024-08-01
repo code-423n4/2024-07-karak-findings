@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "ayden",
+  "risk": "3",
+  "title": "operator customizes the slashStore address, it results in slashAssets always reverting",
+  "issueId": 82,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/82",
+  "originalIssueId": 146,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/146"
+}
