@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "naman1729",
+  "risk": "3",
+  "title": "The operator can still access `Core::finalizeUpdateVaultStakeInDSS()` even after unregistering from the DSS.",
+  "issueId": 65,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/65",
+  "originalIssueId": 324,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/324"
+}
