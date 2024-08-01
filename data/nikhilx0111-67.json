@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "nikhilx0111",
+  "risk": "3",
+  "title": "a malicious user can submit a invalid snapshot",
+  "issueId": 67,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/67",
+  "originalIssueId": 304,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/304"
+}
