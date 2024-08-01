@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "Testerbot",
+  "risk": "3",
+  "title": "Operators can stake vaults without being registered in the DSS",
+  "issueId": 69,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/69",
+  "originalIssueId": 285,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/285"
+}
