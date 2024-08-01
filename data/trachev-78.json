@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "trachev",
+  "risk": "3",
+  "title": "NativeVault's `MANAGER_ROLE` is untrusted and allows malicious operators to steal all funds from the native nodes",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/78",
+  "originalIssueId": 212,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/212"
+}
