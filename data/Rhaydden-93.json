@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "Rhaydden",
+  "risk": "3",
+  "title": "Protocol could be tricked by some tokens stemming from the fact that rebasing/FOT tokens are not handled correctly",
+  "issueId": 93,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/93",
+  "originalIssueId": 20,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/20"
+}
