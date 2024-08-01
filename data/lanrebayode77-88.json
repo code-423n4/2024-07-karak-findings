@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "lanrebayode77",
+  "risk": "3",
+  "title": "Users that deposits after a DSS slash requested can lose funds unjustly",
+  "issueId": 88,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/88",
+  "originalIssueId": 65,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/65"
+}
