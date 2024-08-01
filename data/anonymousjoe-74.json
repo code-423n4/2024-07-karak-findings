@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "anonymousjoe",
+  "risk": "2",
+  "title": "Attacker can DOS a new user in Native Restaking",
+  "issueId": 74,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/74",
+  "originalIssueId": 249,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/249"
+}
