@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "0xlemon",
+  "risk": "2",
+  "title": "finalizeUpdateVaultStakeInDSS() can be called after an operator has unregistered from the DSS",
+  "issueId": 71,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/71",
+  "originalIssueId": 274,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/274"
+}
