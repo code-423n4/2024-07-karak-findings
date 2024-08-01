@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "ayden",
+  "risk": "3",
+  "title": "DSS can deposit assets into the vault by oneself, which can lead to vault users losing more slashed assets",
+  "issueId": 76,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/76",
+  "originalIssueId": 216,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/216"
+}
