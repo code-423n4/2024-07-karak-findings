@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Front-running Vulnerability in NativeVault Snapshot Process",
+  "issueId": 64,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/64",
+  "originalIssueId": 335,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/335"
+}
