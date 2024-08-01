@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "sl1",
+  "risk": "2",
+  "title": "If slashingHandler for ETH is changed in the Core.sol it will be impossible to slash any of the already deployed NativeVaults.",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/68",
+  "originalIssueId": 292,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/292"
+}
