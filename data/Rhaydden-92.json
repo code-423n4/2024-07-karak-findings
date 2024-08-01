@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "Rhaydden",
+  "risk": "2",
+  "title": "WETH compatibility issue on Blast chain",
+  "issueId": 92,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/92",
+  "originalIssueId": 21,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/21"
+}
