@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "Operator can bypass MIN_STAKE_UPDATE_DELAY by spamming requestUpdateVaultStakeInDSS()",
+  "issueId": 89,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/89",
+  "originalIssueId": 60,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/60"
+}
