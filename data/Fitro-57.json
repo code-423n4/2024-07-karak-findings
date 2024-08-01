@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "Fitro",
+  "risk": "2",
+  "title": "NativeVault.sol :: validateExpiredSnapshot() will always revert, making it impossible for users from initiating a new snapshot.",
+  "issueId": 57,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/57",
+  "originalIssueId": 131,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/131"
+}
