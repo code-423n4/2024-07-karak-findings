@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "ayden",
+  "risk": "2",
+  "title": "The operator can use any arbitrary nodeImplementation and grant themselves the manager role",
+  "issueId": 81,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/81",
+  "originalIssueId": 163,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/163"
+}
