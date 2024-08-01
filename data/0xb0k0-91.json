@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "0xb0k0",
+  "risk": "2",
+  "title": "Operators can finalize vault stake updates even when unregistered from DSS",
+  "issueId": 91,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/91",
+  "originalIssueId": 34,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/34"
+}
