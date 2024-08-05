@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "lanrebayode77",
+  "risk": "3",
+  "title": "NodeOwners lose partial/full remaining stake after NativeVault suffers a slash request",
+  "issueId": 99,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/99",
+  "originalIssueId": 125,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/125"
+}
