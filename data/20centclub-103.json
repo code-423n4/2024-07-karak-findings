@@ -1,0 +1,10 @@
+{
+  "contest": 404,
+  "handle": "20centclub",
+  "risk": "2",
+  "title": "The DSS can slash an operator even after they change their vault to be staked to another DSS",
+  "issueId": 103,
+  "issueUrl": "https://github.com/code-423n4/2024-07-karak-findings/issues/103",
+  "originalIssueId": 256,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-07-karak-validation/issues/256"
+}
